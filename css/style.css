@@ -161,6 +161,7 @@ header .container {
     color: #919496;
 }
 .container-bottom .lang {
+    text-align: right;
     margin-top: 70px;
     font-size: 12px;
 }
