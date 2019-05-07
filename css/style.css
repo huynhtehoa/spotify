@@ -50,6 +50,9 @@ nav a , footer a {
 nav li {
     font-weight: bold;
 }
+.dif-color {
+    color: #d9dadc;
+}
 a:hover {
     color: #1db954;
 }
