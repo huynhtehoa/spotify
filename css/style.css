@@ -94,7 +94,7 @@ header .container {
     background-color: #1ed760;
 }
 .hero-img {
-    background-image: url(/img/hero-burst.svg);
+    background-image: url(img/hero-burst.svg);
     height: inherit;
     width: 100%;
     margin: 0 auto;
