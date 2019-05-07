@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Circular, Helvetica, Arial, Sans-serif;
+}
+
+.container{
+    height: inherit;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 0.125fr [start] 0.75fr [end] 0.125fr  1fr;
+}
+
+.container *:not(hr){
+    grid-column: start/end;
+}
+
+.logo{
+    height: 59px;
+    width: 197px;
+    margin: 20px auto;
+}
+
+hr{
+    grid-column: 1/6;
+    border: 0.5px solid rgba(197, 191, 191, 0.555);
+}
+
+.fb-signup{
+    margin: 20px auto 0;
+    height: 50px;
+    width: 300px;
+    background-color: #3B5998;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    border-radius: 500px;
+    border: none;
+}
+
+.fb-signup:hover{
+    background-color: rgba(59, 88, 152, 0.836);
+    cursor: pointer;
+}
+
+.or{
+    width: 100%;
+    height: 13px;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+    border-color: rgba(197, 191, 191, 0.555);
+    text-align: center;
+}
+
+.or span{
+    background-color: white;
+    padding: 0 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+h1{
+    font-size: 16px;
+    margin: 15px auto;
+    font-weight: 800;
+}
+
+form *:not(p){
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.dob{
+    padding-left: 0;
+}
+
+.dob *{
+    display: flex;
+    float: left;
+}
+
+.dob-1{
+    width: 20%;
+    margin-right: 5%;
+}
+
+.dob-2{
+    width: 50%;
+}
+
+.dob-3{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.choice , .check{
+    padding-left: 0;
+    margin-bottom: 0px;
+}
+
+.choice *{
+    width: 12px;
+    height: 12px;
+    font-size: 15px;
+}
+
+.choice span , .check span{
+    padding: 0 5px;
+    color: rgba(73, 71, 71, 0.781);
+}
+
+.check input{
+    margin-bottom: 0px;
+}
+
+.check *{
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+}
+
+
+.agreement{
+    margin: 10px 0 30px;
+}
+
+.agreement p{
+    text-align: center;
+    color: black;
+    font-size: 12px;
+}
+
+div button{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-sign{
+    width: 300px;
+    padding: 5px 0;
+    margin: 0 auto 20px;
+    border-radius: 500px;
+    border: none;
+    background-color: #1db954;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+.btn-sign:hover{
+    cursor: pointer;
+    background-color: #1ed760;
+}

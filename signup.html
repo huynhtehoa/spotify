@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width; initial-scale=1">
+        <link href="css/signup.css" rel="stylesheet">
+        <title>Signup Spotify</title>
+    </head>
+    <body>
+        <div class="container">
+            <img class="logo" src="img/signup-logo.png" alt="logo">
+            <hr>
+            <button class="fb-signup">SIGN UP WITH FACEBOOK</button>
+            <div class="or">
+                <span>or</span>
+            </div>
+            <h1>Sign up with your email address</h1>
+            <form>
+                <input type="email" id="email" placeholder="Email">
+                <input type="email" id="confirm-email" placeholder="Confirm email">
+                <input type="password" id="password" placeholder="Password">
+                <input type="text" id="call" placeholder="What should we call you?">
+                <p style="color: gray;">Date of birth</p>
+                <div class="dob">
+                    <input class ="dob-1" type="number" id="day" min="1" max="31" placeholder="Day">
+                    <input class ="dob-2" type="number" id="month" min="1" max="12" placeholder="Month">
+                    <input class ="dob-3" type="year" id="year" placeholder="Year">
+                </div>
+                <div class="choice">
+                    <input type="radio" name="gender" value="male"><span>Male&nbsp;</span>
+                    <input type="radio" name="gender" value="female"><span>Female&nbsp;</span>
+                    <input type="radio" name="gender" value="non-binary"><span>Non-binary&nbsp;</span><br>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="share" value="share">
+                    <span class="check">Share my registration data with Spotify's content providers for marketing purposes.</span>
+                </div>
+                <div class="agreement">
+                    <p>By clicking on Sign up, you agree to Spotify's Terms and Conditions of Use.</p>
+                    <br>
+                    <p>To learn more about how Spotify collects, uses, shares and protects your personal data please read Spotify's Privacy Policy.</p>
+                </div>
+                    <br>
+                <div>
+                    <button class="btn-sign">SIGN UP</button>
+                </div>
+                <p style="text-align: center; font-size: 15px;">Already have an account? Log in</p>
+            </form>
+        </div>
+    </body>
+</html>
